@@ -5,7 +5,7 @@
 
 With this code the Raspberry Pi will detect button input to do a face recognition test.
 
-Then if the face is recognized it will switch on a relais to pull back the electromagnetic door lock which will enable you to open the door.
+Then if the face is recognized it will switch on a relais to pull back the electromagnetic door lock lever which will enable you to open the door.
 
 If you have entered the room you need to click the other button which is located on the inside of the room to close the lock again as soon as you have closed the door again.
 
