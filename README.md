@@ -16,3 +16,7 @@ To close the lock from the outside just press the button that is located on the 
 During the whole time the code is running the connected LCD display will show useful information. Note that in order to interact with the LCD display I needed this lcddriver.py script which is made only for my specific display model so you might have to handle your display a little different.
 
 ### How I implemented it
+
+Raspberry Pi + Camera + LCD Display outside of the door:
+
+![outside](./PicturesOfMyDoorlockSetup/outside1)
