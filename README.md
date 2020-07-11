@@ -19,4 +19,4 @@ During the whole time the code is running the connected LCD display will show us
 
 Raspberry Pi + Camera + LCD Display on the outside of the door:
 
-![outside](./PicturesOfMyDoorlockSetup/OutsideBox1.jpg =500)
+![outside](./PicturesOfMyDoorlockSetup/OutsideBox1.jpg =500x)
