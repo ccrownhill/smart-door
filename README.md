@@ -17,6 +17,6 @@ During the whole time the code is running the connected LCD display will show us
 
 ### How I implemented it
 
-Raspberry Pi + Camera + LCD Display outside of the door:
+Raspberry Pi + Camera + LCD Display on the outside of the door:
 
-![outside](./PicturesOfMyDoorlockSetup/OutsideBox1.jpg)
+![outside](./PicturesOfMyDoorlockSetup/OutsideBox1.jpg =500)
