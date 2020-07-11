@@ -19,4 +19,10 @@ During the whole time the code is running the connected LCD display will show us
 
 Raspberry Pi + Camera + LCD Display on the outside of the door:
 
-![outside|500x](./PicturesOfMyDoorlockSetup/OutsideBox1.jpg)
+![outside](./PicturesOfMyDoorlockSetup/OutsideBox.jpg)
+
+Electromagnetic Lock + Relais + Button on the inside of the door:
+
+![inside](./PicturesOfMyDoorlockSetup/InsideButton.jpg)
+
+![inside](./PicturesOfMyDoorlockSetup/InsideRelais.jpg)
