@@ -42,7 +42,7 @@ other_enc = fr.face_encodings(h)[0]
 # provide functionality for opening the door
 def open():
 	global closed
-	gpio.setup(relais, gpio.OUT)
+	gpio.setup(relay, gpio.OUT)
 	closed = False
 	print("opening")
 
@@ -56,11 +56,11 @@ def close(x):
 		# opening so the person from inside
 		# can get out without any message
 		# to the lcd display
-		gpio.setup(relais, gpio.OUT)
+		gpio.setup(relay, gpio.OUT)
 	else:
 		# closing door from the inside
 		openable = False
-		gpio.setup(relais, gpio.IN)
+		gpio.setup(relay, gpio.IN)
 	closed = not closed
 	if x == "not important":
 		print("outside")
@@ -133,9 +133,9 @@ gpio.setup(inside, gpio.IN, pull_up_down=gpio.PUD_DOWN)
 gpio.output(14, True)
 gpio.output(17, True)
 
-# setup pin 23 for controlling the relais which will switch the lock
+# setup pin 23 for controlling the relay which will switch the lock
 # on and of
-relais = 26
+relay = 26
 
 gpio.add_event_detect(inside, gpio.RISING, callback=close, bouncetime=4000)
 gpio.add_event_detect(outside, gpio.RISING, callback=try_access, bouncetime=10000)
