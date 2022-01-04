@@ -4,6 +4,8 @@
 
 ### What does the code do?
 
+**Disclaimer**: The `lcddriver.py` script is not written by me. I got it from my LCD manufacturer and every LCD display driver is probably a little different.
+
 With this code the Raspberry Pi will detect button input to do a face recognition test.
 
 Then if the face is recognized it will switch on a relay to pull back the electromagnetic door lock lever which will enable you to open the door.
